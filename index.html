@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Steve Fid</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Hello, world!</h1>
-  <p>Welcome to my website 🚀</p>
+  <div id="world">
+    <h1 class="titles">Welcome</h1>
+    <img src="res/pp.png" id="pp">
+    <h4 class="titles">Quick presentation</h4>
+    <p class="centeredParagraph">Im Ahmed , i make games for mobile users , using html css and javascript</p><br />
+    <h3 class="titles">My Projects</h3>
+    <div id="projectsSection">
+      <div class="project" onclick="visit('dragball')">
+        <p class="projectName">universe simulator</p>
+        <img src="res/unisim.png" class="projectImg">
+      </div>
+      <div class="project" onclick="visit('html-simple-universe-simulator')">
+        <p class="projectName">DragBall</p>
+        <img src="res/dragBall.png" class="projectImg">
+      </div>
+    </div>
+    <h3 class="titles">Links</h3>
+    <p class="paragraph">-my itch page <a href="https://steve-fid.itch.io">itch.io</a></p>
+  </div>
+  
+  
+  <script src="main.js"></script>
 </body>
 </html>
